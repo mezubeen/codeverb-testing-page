@@ -2871,8 +2871,10 @@ svg.svg-cta-bottom {
 .intro__title__words-animation{
 	width:80px;
 }
+.section--intro1{
+	padding-bottom: 140%;
 }
-
+}
 /*===============================================*/
 /*  7.1 CUSTOM SECTION - INTRO	 			 */
 /*===============================================*/
