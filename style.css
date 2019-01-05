@@ -46,7 +46,8 @@ html, body{
 	height:100%;
 }
 body{
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Nunito', sans-serif !important;
+	/* font-family: 'Source Sans Pro', sans-serif; */
 	padding:0;
 	font-size:16px;
 	margin:0 auto;
@@ -3162,6 +3163,7 @@ svg.svg-cta-bottom {
 	}
 	
 	.brn {
+		font-family: 'Nunito', sans-serif !important;
 		font-size: 35px;
 		font-weight: 600;
 		/*background-color: transparent;*/
