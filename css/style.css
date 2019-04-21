@@ -80,13 +80,13 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 /***************************
 		 General
 ***************************/
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
-body { font-family: 'Poppins', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 24px; color: #aaaaaa; }
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body { font-family: 'nunito', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 24px; color: #aaaaaa; }
 a, .btn { -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; color: #353535; }
 a:focus { text-decoration: none !important; }
 a:focus, a:hover { color: #2046f2; text-decoration: none !important; }
 a, button, input { outline: medium none !important; color: #2046f2; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; font-weight: normal; color: #353535; margin-top: 0px; margin-bottom: 0px; text-transform:uppercase;}
+h1, h2, h3, h4, h5, h6 { font-family: 'nunito', sans-serif; font-weight: normal; color: #353535; margin-top: 0px; margin-bottom: 0px; text-transform:uppercase;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 h1 { font-size: 54px; font-style: normal; font-weight: 700; line-height: 54px; }
 h2 { font-size: 40px; font-style: normal; font-weight: 700; line-height: 40px; }
@@ -216,7 +216,7 @@ select { width: 100%; background: #f6f7f8; border: 0px; padding: 15px 18px 15px 
       Section title  
 ***************************/
 .section-title { margin-bottom: 60px; }
-.section-title span { display: block; text-transform: uppercase; font-size: 16px; font-family: 'Poppins', sans-serif; font-weight: 700; margin-bottom: 10px; }
+.section-title span { display: block; text-transform: uppercase; font-size: 16px; font-family: 'nunito', sans-serif; font-weight: 700; margin-bottom: 10px; }
 
 /***************************
 		   form
@@ -311,7 +311,7 @@ select { width: 100%; background: #f6f7f8; border: 0px; padding: 15px 18px 15px 
 /*mega-menu*/
 .mega-menu .menu-logo { padding: 39px 0px; }
 .mega-menu .menu-logo img { height: 45px; }
-.mega-menu .menu-links > li > a { line-height: 120px; text-transform: uppercase; font-size: 14px; font-weight: 600; font-family: 'Poppins', sans-serif; }
+.mega-menu .menu-links > li > a { line-height: 120px; text-transform: uppercase; font-size: 14px; font-weight: 600; font-family: 'nunito', sans-serif; }
 .mega-menu .drop-down-multilevel.right-menu { right: 0px; }
 .mega-menu .menu-links > li:last-child > a { padding-right: 0px; }
 .mega-menu .menu-links > li .drop-down-multilevel a { font-size: 13px; font-weight: 600; }
@@ -600,6 +600,7 @@ position: fixed; z-index: 2; height: 100%; width: 100%; top: 0; left: 0; cursor:
 ul.list-mark li { list-style-type: none; padding-left: 25px; position: relative; }
 ul.list-mark li:after { content: "\f00c"; font-family: 'FontAwesome'; position: absolute; left: 0; top: 0; color: #2046f2; }
 
+ul.list-mark1 li:after { content: "\f00c"; font-family: 'FontAwesome'; position: absolute; left: 0; top: 0; color: black; }
 /* List checkbox */
 ul.list-style-right li { list-style-type: none; position: relative; font-weight: bold; color: #353535; font-size: 16px; }
 ul.list-style-right li i { color: #2046f2; padding-right: 15px; }
@@ -621,7 +622,7 @@ ul.list-style-icon li span { color: #2046f2; padding-right: 15px; }
 .accordion .acd-group .acd-heading:before { font-family: fontawesome; }
 .accordion .acd-group .acd-heading:before { cursor: pointer; position: absolute; top: 6px; right: 20px; display: block; padding: 3px 6px 2px; content: "\f105"; font-size: 22px; line-height: 38px; }
 .accordion .acd-group > .acd-heading > span { margin-right: 15px; }
-.accordion .acd-heading { position: relative; padding: 20px 30px; color: #353535; line-height: normal; cursor: pointer; background-color: #fff; margin-bottom: 20px; display: block; font-family: 'Poppins', sans-serif; text-transform: uppercase; border-radius: 90px; box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); }
+.accordion .acd-heading { position: relative; padding: 20px 30px; color: #353535; line-height: normal; cursor: pointer; background-color: #fff; margin-bottom: 20px; display: block; font-family: 'nunito', sans-serif; text-transform: uppercase; border-radius: 90px; box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); }
 .acd-des { padding: 0 40px 20px; }
 .accordion .acd-group.acd-active .acd-heading { color: #fff; background: #2046f2; }
 .accordion .acd-group.acd-active .acd-heading:before { content: "\f107"; }
@@ -661,7 +662,7 @@ ul.list-style-icon li span { color: #2046f2; padding-right: 15px; }
 .pricing .pricing-title h5 { font-weight: 700; }
 .pricing .pricing-prize h2 span { font-size: 14px; display: inline-block; padding-right: 5px; }
 .pricing .pricing-list ul { margin-top: 15px; }
-.pricing .pricing-list ul li { list-style-type: none; font-family: 'Poppins', sans-serif; line-height: 36px; }
+.pricing .pricing-list ul li { list-style-type: none; font-family: 'nunito', sans-serif; line-height: 36px; }
 .pricing:hover { box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1); }
 
 /* Our Pricing hover */
@@ -697,7 +698,7 @@ ul.list-style-icon li span { color: #2046f2; padding-right: 15px; }
 .footer.footer-topbar img { height: 40px; }
 .footer .footer-nav { margin-top: 8px; }
 .footer .footer-nav ul li { display: inline-block; }
-.footer .footer-nav ul li a { text-transform: uppercase; font-weight: normal; font-family: 'Poppins', sans-serif; color: #fff; margin: 0 5px; }
+.footer .footer-nav ul li a { text-transform: uppercase; font-weight: normal; font-family: 'nunito', sans-serif; color: #fff; margin: 0 5px; }
 .footer .footer-nav ul li a:hover { color: rgba(255, 255, 255, 0.65); }
 .footer.footer-topbar .top { margin-bottom: 60px; }
 .footer.footer-topbar hr { margin-bottom: 60px; border-color: #4d6bf5; }
@@ -754,7 +755,7 @@ div#main { z-index: 1; position: relative; }
 .footer-dark .footer-logo img { height: 50px; }
 .footer-dark .addresss-icon { float: left; font-size: 24px; margin-right: 20px; }
 .footer-dark .addresss-info { display: table-cell; vertical-align: middle; }
-.footer-dark .addresss-info h6 { text-transform: inherit; font-weight: normal; font-family: 'Poppins', sans-serif; }
+.footer-dark .addresss-info h6 { text-transform: inherit; font-weight: normal; font-family: 'nunito', sans-serif; }
 .footer-dark .footer-nav { margin-top: 8px; }
 .footer-dark .footer-nav ul li { display: block; margin-bottom: 10px; }
 .footer-dark .footer-nav ul li a { color: #aaaaaa; }
@@ -895,13 +896,13 @@ div#main { z-index: 1; position: relative; }
 .testimonial-03 .testimonial-avatar img { border-radius: 90px; }
 .testimonial-03 .testimonial-info { display: table-cell; vertical-align: middle; }
 .testimonial-03 .testimonial-info h6 { position: absolute; content: ""; bottom: -70px; left: 50px; }
-.testimonial-03 .testimonial-info h6 span { display: block; font-family: 'Poppins', sans-serif; color: #aaaaaa; font-size: 14px; }
+.testimonial-03 .testimonial-info h6 span { display: block; font-family: 'nunito', sans-serif; color: #aaaaaa; font-size: 14px; }
 .service-contact .owl-carousel .owl-controls .owl-dot { margin-top: 0; }
 
 /***************************
           Counter
 ***************************/
-.counter b { font-size: 30px; display: block; color: #ffffff; font-family: 'Poppins', sans-serif; font-weight: bold; margin: 10px 0px; }
+.counter b { font-size: 30px; display: block; color: #ffffff; font-family: 'nunito', sans-serif; font-weight: bold; margin: 10px 0px; }
 .counter span { font-size: 40px; color: #ffffff; }
 
 /*.counter.light*/
